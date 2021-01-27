@@ -1,4 +1,4 @@
-# sandwich-cemetery
+# Sandwich Cemetery
 
 👨‍💻 _work in progress_
 
@@ -6,6 +6,6 @@
 
 🐾 This will be a text-based narrative game about a pug called Rondelko.
 
-## When will it be done?
+### When will it be done?
 
-No idea. Hopefully sometime soon 🐬
+🐬 No idea. Hopefully sometime soon.
