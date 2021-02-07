@@ -52,6 +52,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   cursor: url("/cursor/paw.svg"), auto;
+  background-color: #ffeeaa;
+  color: #222;
+}
+
+::selection {
+  /* color: #fff; */
+  background-color: pink;
 }
 
 a {
@@ -68,6 +75,6 @@ h6 {
   font-family: "Ouroboros";
 }
 
-p {
+/* p {
   font-family: "Minipax";
-}
+} */
