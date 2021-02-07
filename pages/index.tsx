@@ -1,13 +1,11 @@
-import Head from "next/head";
+import Intro from "../components/Intro";
+import Metadata from "../components/Metadata";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Sandwich Cemetery</title>
-      </Head>
-      <h1>Sandwich Cemetery</h1>
-      <p>Coming soon...</p>
+      <Metadata />
+      <Intro />
     </>
   );
 }
