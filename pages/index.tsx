@@ -1,11 +1,10 @@
-import Head from "next/head";
+import Metadata from "../components/Metadata";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Sandwich Cemetery</title>
-      </Head>
+      <Metadata />
+
       <h1>Sandwich Cemetery</h1>
       <p>Coming soon...</p>
     </>
