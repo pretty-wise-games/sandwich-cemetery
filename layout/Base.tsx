@@ -1,3 +1,8 @@
+import { ReactElement } from "react";
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+
 @font-face {
   font-family: "Ouroboros";
   font-style: normal;
@@ -57,7 +62,6 @@ body {
 }
 
 ::selection {
-  /* color: #fff; */
   background-color: pink;
 }
 
@@ -75,6 +79,15 @@ h6 {
   font-family: "Ouroboros";
 }
 
-/* p {
-  font-family: "Minipax";
-} */
+`;
+
+const BaseLayout = ({ children }): ReactElement => {
+  return (
+    <>
+      <GlobalStyle />
+      {children}
+    </>
+  );
+};
+
+export default BaseLayout;
