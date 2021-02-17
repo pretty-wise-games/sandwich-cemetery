@@ -1,0 +1,49 @@
+[
+  {
+    "id": "bedroom-1",
+    "scene": "bedroom",
+
+    "title": {
+      "pl": "Naprawdę wygodne łóżko Mopsika Rondelki",
+      "en": "A very comfortable bedroom"
+    },
+
+    "text": {
+      "pl": "Mopsik Rondelko obudził się po długim i satysfakcjonującym śnie, w którym bawił się na swoim przyjęciu urodzinowym. Dostał w prezencie gumowego kurczaka ze smaczkami w środku, a jego mama podała gościom tort o smaku suszonego mięsa. Kiedy otworzył oczy, poczuł, że coś jest nie tak. To nie mógł być jego pokój. Było mu zimno, nie ścianach nie świeciły fluorescencyjne gwiazdki, nie widział swojej kolekcji pogryzionych piłek tenisowych, które leżały zawsze na komodzie. Co jednak najgorsze, w pobliżu czuło się czyjąś obecność...",
+      "en": ""
+    },
+
+    "actions": [
+      {
+        "type": "link",
+        "label": "Mopsik postanawia zbadać sprawę",
+        "saveInputAs": "",
+        "linksTo": "bedroom-2"
+      }
+    ]
+  },
+
+  {
+    "id": "bedroom-2",
+    "scene": "bedroom",
+
+    "title": {
+      "pl": "Mopsik postanawia zbadać sprawę",
+      "en": ""
+    },
+
+    "text": {
+      "pl": "Zanim Mopsik wstał ze swojego naprawdę wygodnego łóżeczka, przypomniał sobie, że mama nauczyła go kiedyś magicznego słowa, po wypowiedzeniu którego wszystkie mopsiki stają się odważne. Brzmiało ono...",
+      "en": ""
+    },
+
+    "actions": [
+      {
+        "type": "input",
+        "label": "Wpisz magiczne słowo dla mopsika",
+        "saveInputAs": "magicPhrase",
+        "linksTo": "bedroom-3"
+      }
+    ]
+  }
+]
