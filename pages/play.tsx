@@ -80,7 +80,7 @@ export default function Home(): ReactElement {
       );
     } else if (action.type === "input") {
       return (
-        <>
+        <form onSubmit={(e) => e.preventDefault()}>
           <label htmlFor="textInput">{action.label}</label>
           <input
             id="textInput"
@@ -90,7 +90,7 @@ export default function Home(): ReactElement {
               setMagicPhrase(e.currentTarget.value);
             }}
           ></input>
-        </>
+        </form>
       );
     }
   }
