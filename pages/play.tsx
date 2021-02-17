@@ -16,19 +16,29 @@ const StageText = styled.p`
 const ActionList = styled.ul`
   list-style: none;
   padding-left: 0;
-  align-self: flex-start;
-  background: white;
+  width: 100%;
 `;
 
 const Action = styled.li`
   input {
     border: none;
     font-family: inherit;
-    padding: 0 1rem;
+    display: block;
+    border: 3px solid pink;
+    font-size: 0.8rem;
+    margin: 0 auto;
+  }
+  label {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+    display: block;
     text-align: center;
   }
   a {
+    display: block;
     text-decoration: underline;
+    text-align: center;
+    margin-top: 2rem;
   }
 `;
 
@@ -70,14 +80,17 @@ export default function Home(): ReactElement {
       );
     } else if (action.type === "input") {
       return (
-        <input
-          type="text"
-          placeholder={action.label}
-          value={magicPhrase}
-          onChange={(e) => {
-            setMagicPhrase(e.currentTarget.value);
-          }}
-        ></input>
+        <>
+          <label htmlFor="textInput">{action.label}</label>
+          <input
+            id="textInput"
+            type="text"
+            value={magicPhrase}
+            onChange={(e) => {
+              setMagicPhrase(e.currentTarget.value);
+            }}
+          ></input>
+        </>
       );
     }
   }
