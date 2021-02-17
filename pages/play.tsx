@@ -42,11 +42,11 @@ const Scene = styled.article`
   justify-content: center;
 `;
 
-export default function Home() {
+export default function Home(): ReactElement {
   const [currentStageData, setCurrentStageData] = useState(story[0]);
   const [magicPhrase, setMagicPhrase] = useState<string>("");
 
-  function loadStage(stageId) {
+  function loadStage(stageId: string): void {
     setCurrentStageData(story.find((stage) => stage.id === stageId));
   }
 
@@ -55,7 +55,7 @@ export default function Home() {
     label: string;
     linksTo?: string;
     saveInputAs?: string;
-  }): ReactElement | string {
+  }): ReactElement {
     if (action.type === "link") {
       return (
         <a
@@ -78,7 +78,6 @@ export default function Home() {
             setMagicPhrase(e.currentTarget.value);
           }}
         ></input>
-        
       );
     }
   }
