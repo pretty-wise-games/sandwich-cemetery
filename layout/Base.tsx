@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
-import * as styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = styled.createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: "Ouroboros";
     font-style: normal;
