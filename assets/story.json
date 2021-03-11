@@ -17,6 +17,7 @@
       {
         "type": "link",
         "label": "Mopsik postanawia zbadać sprawę",
+        "saveInputAs": "",
         "linksTo": "bedroom-2"
       }
     ]
@@ -64,6 +65,7 @@
       {
         "type": "link",
         "label": "Mopsik wstaje z łóżka",
+        "saveInputAs": "",
         "linksTo": "bedroom-4"
       }
     ]
@@ -87,16 +89,19 @@
       {
         "type": "link",
         "label": "Mopsik zdaje się na instynkt",
+        "saveInputAs": "",
         "linksTo": "bedroom-5-1"
       },
       {
         "type": "link",
         "label": "Mopsik zachowuje się jak dziecko, którym jest",
+        "saveInputAs": "",
         "linksTo": "bedroom-5-2"
       },
       {
         "type": "link",
         "label": "Mopsik podchodzi do sprawy racjonalnie",
+        "saveInputAs": "",
         "linksTo": "bedroom-5-3"
       }
     ]
