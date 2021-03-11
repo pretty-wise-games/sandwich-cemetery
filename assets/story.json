@@ -45,5 +45,29 @@
         "linksTo": "bedroom-3"
       }
     ]
+  },
+
+  {
+    "id": "bedroom-3",
+    "scene": "bedroom",
+
+    "title": {
+      "pl": "Magiczne słowo Rondelki",
+      "en": ""
+    },
+
+    "text": {
+      "pl": "No okej, ${magicPhrase}, niech ci będzie. Od teraz Mopsik może przywoływać to słowo, ilekroć będzie tego potrzebował. Pamiętaj tylko, że magicznych słów należy używać z rozwagą.",
+      "en": ""
+    },
+
+    "actions": [
+      {
+        "type": "link",
+        "label": "Mopsik wstaje z łóżka",
+        "saveInputAs": "",
+        "linksTo": "bedroom-4"
+      }
+    ]
   }
 ]
