@@ -17,7 +17,6 @@
       {
         "type": "link",
         "label": "Mopsik postanawia zbadać sprawę",
-        "saveInputAs": "",
         "linksTo": "bedroom-2"
       }
     ]
@@ -65,8 +64,40 @@
       {
         "type": "link",
         "label": "Mopsik wstaje z łóżka",
-        "saveInputAs": "",
         "linksTo": "bedroom-4"
+      }
+    ]
+  },
+
+  {
+    "id": "bedroom-4",
+    "scene": "bedroom",
+
+    "title": {
+      "pl": "Mopsik wstaje z łóżka",
+      "en": ""
+    },
+
+    "text": {
+      "pl": "Pokrzepiony tym wspomnieniem, Rondelko wyskoczył z łóżka i wylądował łapkami na czymś zimnym i wilgotnym. To z pewnością nie był puchaty dywan z jego pokoju. Nie zdążył się nawet nad tym zastanowić, bo ktoś za jego plecami powiedział: - No fajnie, fajnie, to chodź już teraz, drugą godzinę czekam, a nie mam całej nocy.",
+      "en": ""
+    },
+
+    "actions": [
+      {
+        "type": "link",
+        "label": "Mopsik zdaje się na instynkt",
+        "linksTo": "bedroom-5-1"
+      },
+      {
+        "type": "link",
+        "label": "Mopsik zachowuje się jak dziecko, którym jest",
+        "linksTo": "bedroom-5-2"
+      },
+      {
+        "type": "link",
+        "label": "Mopsik podchodzi do sprawy racjonalnie",
+        "linksTo": "bedroom-5-3"
       }
     ]
   }

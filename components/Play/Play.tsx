@@ -104,7 +104,9 @@ const Play = (): ReactElement => {
       <Scene>
         <StageTitle>{currentStageData.title.pl}</StageTitle>
 
-        <StageText>{currentStageData.text.pl}</StageText>
+        <StageText>
+          {currentStageData.text.pl.replace(/\${magicPhrase}/g, magicPhrase)}
+        </StageText>
 
         {currentStageData.actions.length > 0 && (
           <ActionList>
