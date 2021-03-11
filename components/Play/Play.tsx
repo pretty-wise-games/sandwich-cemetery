@@ -88,6 +88,11 @@ const Play = (): ReactElement => {
             onChange={(e) => {
               setMagicPhrase(e.currentTarget.value);
             }}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                loadStage(action.linksTo);
+              }
+            }}
           ></input>
         </form>
       );
