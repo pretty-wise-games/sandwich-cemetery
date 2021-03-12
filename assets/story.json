@@ -105,5 +105,95 @@
         "linksTo": "bedroom-5-3"
       }
     ]
+  },
+
+  {
+    "id": "bedroom-5-1",
+    "scene": "bedroom",
+
+    "title": {
+      "pl": "Mopsik zdaje się na instynkt",
+      "en": ""
+    },
+
+    "text": {
+      "pl": "Mopsik podskoczył ze strachu i zaczął uciekać. Przebierał krótkimi nóżkami jak w amoku. W brzuchu przewracały mu się smaczki, które zjadł przed snem, chociaż mama zawsze powtarzała, że nie wolno jeść po dobranocce. Kiedy już myślał, że udało mu się zgubić przeciwnika, usłyszał ten sam głos: - Rondelko, skup się, bo nie będę powtarzać. Stąd nie ma ucieczki, okej? Możesz biec i biec, aż porzygasz się ze zmęczenia, a ja będę zawsze za tobą. Przestań marnować mój czas.",
+      "en": ""
+    },
+
+    "actions": [
+      {
+        "type": "link",
+        "label": "Mopsik czuje urazę, bo nie rzygał nigdy ze zmęczenia",
+        "saveInputAs": "",
+        "linksTo": "bedroom-6-1"
+      },
+      {
+        "type": "link",
+        "label": "Mopsik jest tak zmęczony, że zaraz chyba naprawdę się porzyga",
+        "saveInputAs": "",
+        "linksTo": "bedroom-6-2"
+      }
+    ]
+  },
+
+  {
+    "id": "bedroom-5-2",
+    "scene": "bedroom",
+
+    "title": {
+      "pl": "Mopsik zachowuje się jak dziecko, którym jest",
+      "en": ""
+    },
+
+    "text": {
+      "pl": "Rondelko zaczął płakać. Najpierw nieśmiało, lecz z każdą sekundą coraz bardziej histerycznie. Z nosa leciały mu gluty, sierść na buzi zrobiła się cała mokra, a pod łapkami uformowała mu się całkiem spora kałuża. - Chryste, Rondelko, co ty wyprawiasz? Przepraszam, nie chciałam cię tak przestraszyć - usłyszał.",
+      "en": ""
+    },
+
+    "actions": [
+      {
+        "type": "link",
+        "label": "Mopsik smarka w lewy rękaw piżamy",
+        "saveInputAs": "",
+        "linksTo": "bedroom-6-3"
+      },
+      {
+        "type": "link",
+        "label": "Mopsik smarka w prawy rękaw piżamy",
+        "saveInputAs": "",
+        "linksTo": "bedroom-6-4"
+      }
+    ]
+  },
+
+  {
+    "id": "bedroom-5-3",
+    "scene": "bedroom",
+
+    "title": {
+      "pl": "Mopsik podchodzi do sprawy racjonalnie",
+      "en": ""
+    },
+
+    "text": {
+      "pl": "Chociaż był jeszcze dzieckiem, Rondelko postanowił zachować się jak dorosły mops. Wziął głęboki oddech i odwrócił się, żeby sprawdzić, kto za nim stoi. Jego oczom ukazał się szkielet. Był ubrany w czarny płaszcz, a przy boku trzymał kosę. Rondelkowe serce podskoczyło do gardła, a łapki zadrżały. - ${magicPhrase}!, ${magicPhrase}! - krzyknął Rondelko i po chwili poczuł przypływ odwagi. Zrozumiał, że musi jak najszybciej podjąć decyzję, co zrobić dalej.",
+      "en": ""
+    },
+
+    "actions": [
+      {
+        "type": "link",
+        "label": "Mopsik zagaduje i robi to głupio",
+        "saveInputAs": "",
+        "linksTo": "bedroom-6-5"
+      },
+      {
+        "type": "link",
+        "label": "Mopsik atakuje i robi to głupio",
+        "saveInputAs": "",
+        "linksTo": "bedroom-6-6"
+      }
+    ]
   }
 ]
